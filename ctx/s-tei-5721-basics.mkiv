@@ -1,0 +1,70 @@
+%D \module
+%D   [       file=s-tei-5721-basic,
+%D        version=2014.02.24,
+%D          title=\CONTEXT\ XML-TEI Support for 5721,
+%D       subtitle=,
+%D       author=Luigi Scarso,
+%D           date=\currentdate,
+%D      copyright={Luigi Scarso}]
+
+
+
+\startxmlsetups xml:tei:5721-setups
+        \xmlsetsetup{#1}{*}{-} %% {*}:every element {-}:ignore {+}:flush
+ 	\xmlsetsetup{#1}{TEI|text|body|div}{xml:tei:textstructure:*}
+ 	\xmlsetsetup{#1}{lb|pb}{xml:tei:core:*} 
+ 	\xmlsetsetup{#1}{head}{xml:tei:core:*} 
+ 	\xmlsetsetup{#1}{l|lg|sp|speaker|stage}{xml:tei:core:*}  
+\stopxmlsetups
+
+\xmlregistersetup{xml:tei:5721-setups}
+
+\startxmlsetups xml:tei:textstructure:TEI
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:textstructure:text
+	\xmlflush{#1}
+\stopxmlsetups
+ 
+\startxmlsetups xml:tei:textstructure:body
+	\xmlflush{#1}
+\stopxmlsetups
+
+
+\startxmlsetups xml:tei:textstructure:div
+        \xmlflush{#1}
+\stopxmlsetups
+
+
+\startxmlsetups xml:tei:core:l
+%%	\xmlfunction{#1}{tei:core:l}
+        \xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:core:lg
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:core:sp
+	\xmlflush{#1}
+\stopxmlsetups
+
+
+\startxmlsetups xml:tei:core:speaker
+	\xmlflush{#1}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:core:stage
+	\xmlflush{#1}
+\stopxmlsetups
+
+
+
+ 
+%\xmlsetentity{anglebracketleft}{〈}
+%\xmlsetentity{anglebracketright}{〉}
+%\xmltexentity{nbsp}{~}
+%\xmltexentity{snellhyphenatednewline}{-\par\quad\quad}
+%\xmltexentity{snellnewline}{\par\quad\quad}
+

@@ -1,0 +1,65 @@
+%D \module
+%D   [    file=s-tei-5721-style,
+%D        version=2014.05.28,
+%D        title=THE TRAGEDIE OF ROMEO and IVLIET,
+%D        subtitle=,
+%D        author=Luigi Scarso,
+%D         date=\currentdate,
+%D      copyright={Luigi Scarso}]
+
+
+\registerctxluafile{s-tei-5721-basics}{1.001}
+\registerctxluafile{s-tei-5721-style}{1.001}
+\loadmarkfile{s-tei-5721-basics}
+
+\setuppapersize[A4][A4,landscape]
+
+\setuplayout 
+  [width=middle,
+   height=middle,
+   backspace=3cm,
+   cutspace=1cm,
+   rightmargin=0cm,
+   leftmargin=2cm,
+   margindistance=0cm,
+   footer=1cm,
+   header=\zeropoint]
+
+\setuppagenumbering
+ [alternative=singlesided, location={footer,middle}]
+
+
+\setupbodyfont[schola,11pt]
+
+
+\setuphead[chapter]
+	  [style=\tfc,
+	   align=middle,
+           number=no,
+	   expansion=yes,
+	   before=,
+	   after=,
+           page=yes]
+
+\setuphead[section]
+	  [style=normal,
+	   align=middle,
+           number=no,
+	   expansion=yes,
+	   before={\blank[2*line]},
+	   after={\blank[line]},
+           page=no]
+
+\setupinteraction[state=start,
+		  color=black,
+		  contrastcolor=black,
+		  style=normal,
+ 		  title={THE TRAGEDIE OF ROMEO and IVLIET},
+ 		  author={Luigi Scarsoz}]
+
+  
+\placebookmarks[chapter][all][force=yes]
+
+
+
+\mainlanguage[en]
