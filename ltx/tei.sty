@@ -1,0 +1,61 @@
+\ProvidesPackage{tei}[2014/06/09 v0.0.1]
+\RequirePackage{environ}
+\RequirePackage{xspace}
+\RequirePackage{titlesec}
+\newcounter{castitemingroup}
+\newsavebox{\cgbox}
+
+\newenvironment{cast}{%
+  \begin{list}{}{%
+      \leftmargin=1em
+      \itemindent=-\leftmargin
+      \itemsep=6pt
+      \parsep=0pt
+      \topsep=0pt
+      \partopsep=0pt
+    }%
+  }{%
+  \end{list}
+}
+\newcommand\castitem[1]{\item #1}
+\newcommand\role[1]{#1}
+\newcommand\desc[1]{\textit{#1}}
+\NewEnviron{castGroup}[1]{%
+\setcounter{castitemingroup}{0}
+  \renewcommand\castitem[1]{%
+    \stepcounter{castitemingroup}%
+    \ifnum\c@castitemingroup>1\par\vskip6pt\fi##1
+  }
+  \begin{lrbox}{\cgbox}
+    \begin{minipage}[c]{.3\textwidth}
+      \BODY
+    \end{minipage}
+    \end{lrbox}
+  \item\parbox{.3\textwidth}{\strut\usebox{\cgbox}\strut}~\parbox{.05\textwidth}{$\left.\rule{0pt}{\ht\cgbox}\right\}$}~\parbox{.60\textwidth}{\strut#1\strut}
+}
+\newcommand\act{\chapter*}
+\newcommand\scene{\section*}
+
+\newenvironment{speech}{%
+  \begin{list}{}{%
+      \leftmargin=1em
+      \itemindent=-\leftmargin
+      \itemsep=0pt
+      \parsep=0pt
+      \topsep=0pt
+      \partopsep=0pt
+    }%
+  }%
+  {%
+  \end{list}
+}
+
+\newcommand\speaker[1]{\item \textit{#1}~}
+\newcommand\setting[1]{\textit{#1}\xspace}
+\newcommand\enter[1]{\textit{#1}\xspace}
+\newcommand\direction[1]{\textit{#1}\xspace}
+
+\titleformat{\chapter}{\normalfont\Large}{}{0pt}{}
+\titleformat{\section}{\normalfont\large}{}{0pt}{}
+
+\endinput
