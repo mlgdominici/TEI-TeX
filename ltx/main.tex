@@ -1,7 +1,25 @@
 \documentclass[a4paper]{book}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+%% Source: http://tex.stackexchange.com/a/47579
+\usepackage{ifxetex,ifluatex}
+\newif\ifxetexorluatex
+\ifxetex
+  \xetexorluatextrue
+\else
+  \ifluatex
+    \xetexorluatextrue
+  \else
+    \xetexorluatexfalse
+  \fi
+\fi
+
+
+\ifxetexorluatex
+  \usepackage{fontspec}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+\fi
 \usepackage{tei}
 
 %\begin{document}
