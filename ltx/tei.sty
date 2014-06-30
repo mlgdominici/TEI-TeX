@@ -17,20 +17,20 @@
   }{%
   \end{list}
 }
-\newcommand\castitem[1]{\item #1}
-\newcommand\role[1]{#1}
-\newcommand\desc[1]{\textit{#1}}
+\newcommand\castitem[1]{\item\ignorespaces#1}
+\newcommand\role[1]{\ignorespaces#1}
+\newcommand\desc[1]{\ignorespaces\textit{#1}}
 \NewEnviron{castGroup}[1]{%
-\setcounter{castitemingroup}{0}
+  \setcounter{castitemingroup}{0}
   \renewcommand\castitem[1]{%
     \stepcounter{castitemingroup}%
-    \ifnum\c@castitemingroup>1\par\vskip6pt\fi##1
-  }
-  \begin{lrbox}{\cgbox}
-    \begin{minipage}[c]{.3\textwidth}
-      \BODY
-    \end{minipage}
-    \end{lrbox}
+    \ifnum\c@castitemingroup>1\par\vskip6pt\fi\ignorespaces##1
+  }%
+  \begin{lrbox}{\cgbox}%
+    \begin{minipage}[c]{.3\textwidth}%
+      \BODY%
+    \end{minipage}%
+    \end{lrbox}%
   \item\parbox{.3\textwidth}{\strut\usebox{\cgbox}\strut}~\parbox{.05\textwidth}{$\left.\rule{0pt}{\ht\cgbox}\right\}$}~\parbox{.60\textwidth}{\strut#1\strut}
 }
 \newcommand\act{\chapter*}
