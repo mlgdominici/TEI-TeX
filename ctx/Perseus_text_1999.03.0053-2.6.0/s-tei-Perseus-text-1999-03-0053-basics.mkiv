@@ -1,0 +1,252 @@
+%D \module
+%D   [       file=s-tei-Perseus-text-1999-03-0053-basics
+%D        version=2014.06.30,
+%D          title=\CONTEXT\ XML-TEI Support for Perseus:text:1999-03-0053,
+%D       subtitle=,
+%D       author=Luigi Scarso,
+%D           date=\currentdate,
+%D      copyright={Luigi Scarso}]
+
+\registerctxluafile{s-tei-Perseus-text-1999-03-0053-basics.lua}{1.001}
+
+
+%% \begingroup
+%% \setbox\scratchbox=\vbox{\input tufte\relax}%
+%% \startdisplaymath% 
+%% \left.%
+%% \ruledvbox to \dimexpr\ht\scratchbox\relax{\copy\scratchbox}\right\] 
+%% \stopdisplaymath
+%% \vrule width1pt height\dimexpr\ht\scratchbox\relax depth\dimexpr\dp\scratchbox\relax 
+%% $\cases{\vrule width1pt height\dimexpr\ht\scratchbox\relax depth\dimexpr\dp\scratchbox\relax & \ccaron}$ $x=\hbox{\ccaron $x=\hbox{\ccaron}$}$
+%% \endgroup
+
+
+\startxmlsetups xml:tei:Perseus:text:1999:03:0053-setups
+%%        \xmlsetsetup{#1}{*}{-} %% {*}:every element {-}:ignore {+}:flush
+%% 	\xmlsetsetup{#1}{TEI|text|body|div}{xml:tei:textstructure:*}
+%% 	\xmlsetsetup{#1}{lb|pb}{xml:tei:core:*} 
+%% 	\xmlsetsetup{#1}{head}{xml:tei:core:*} 
+	\xmlsetsetup{#1}{*}{xml:tei:*}  
+\stopxmlsetups
+
+%% ab|author|authority|availability|biblStruct|body|castGroup|castItem|castList
+%%   |change|date|div1|div2|editor|encodingDesc|fileDesc|funder|head|imprint
+%%   |item|l|language|langUsage|lb|list|monogr|name|p|principal|profileDesc
+%%   |publicationStmt|publisher|pubPlace|quote|refsDecl|refState|resp
+%%   |respStmt|revisionDesc|role|roleDesc|sourceDesc|sp|speaker|sponsor
+%%   |stage|TEI|teiHeader|text|title|titleStmt
+
+\xmlregistersetup{xml:tei:Perseus:text:1999:03:0053-setups}
+
+% Elements of the text 
+
+\startxmlsetups xml:tei:ab  
+   \xmlfunction{#1}{tei:ab} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:authority  
+   \xmlfunction{#1}{tei:authority} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:author  
+   \xmlfunction{#1}{tei:author} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:availability  
+   \xmlfunction{#1}{tei:availability} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:biblStruct  
+   \xmlfunction{#1}{tei:biblStruct} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:body  
+   \xmlfunction{#1}{tei:body} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:castGroup  
+   \xmlfunction{#1}{tei:castGroup} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:castItem  
+   \xmlfunction{#1}{tei:castItem} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:castList  
+   \xmlfunction{#1}{tei:castList} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:change  
+   \xmlfunction{#1}{tei:change} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:date  
+   \xmlfunction{#1}{tei:date} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:div1  
+   \xmlfunction{#1}{tei:div1} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:div2  
+   \xmlfunction{#1}{tei:div2} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:editor  
+   \xmlfunction{#1}{tei:editor} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:encodingDesc  
+   \xmlfunction{#1}{tei:encodingDesc} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:fileDesc  
+  \xmlfunction{#1}{tei:fileDesc} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:funder  
+   \xmlfunction{#1}{tei:funder} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:head  
+   \xmlfunction{#1}{tei:head} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:imprint  
+   \xmlfunction{#1}{tei:imprint} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:item  
+   \xmlfunction{#1}{tei:item} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:language  
+   \xmlfunction{#1}{tei:language} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:langUsage  
+   \xmlfunction{#1}{tei:langUsage} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:lb  
+   \xmlfunction{#1}{tei:lb} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:list  
+   \xmlfunction{#1}{tei:list} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:l  
+   \xmlfunction{#1}{tei:l} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:monogr  
+   \xmlfunction{#1}{tei:monogr} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:name  
+   \xmlfunction{#1}{tei:name} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:principal  
+   \xmlfunction{#1}{tei:principal} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:profileDesc  
+   \xmlfunction{#1}{tei:profileDesc} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:publicationStmt  
+   \xmlfunction{#1}{tei:publicationStmt} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:publisher  
+   \xmlfunction{#1}{tei:publisher} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:pubPlace  
+   \xmlfunction{#1}{tei:pubPlace} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:p  
+   \xmlfunction{#1}{tei:p} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:quote  
+   \xmlfunction{#1}{tei:quote} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:refsDecl  
+   \xmlfunction{#1}{tei:refsDecl} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:refState  
+   \xmlfunction{#1}{tei:refState} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:respStmt  
+   \xmlfunction{#1}{tei:respStmt} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:resp  
+   \xmlfunction{#1}{tei:resp} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:revisionDesc  
+   \xmlfunction{#1}{tei:revisionDesc} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:roleDesc  
+   \xmlfunction{#1}{tei:roleDesc} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:role  
+   \xmlfunction{#1}{tei:role} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:sourceDesc  
+   \xmlfunction{#1}{tei:sourceDesc} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:speaker  
+   \xmlfunction{#1}{tei:speaker} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:sponsor  
+   \xmlfunction{#1}{tei:sponsor} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:sp  
+   \xmlfunction{#1}{tei:sp} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:stage  
+   \xmlfunction{#1}{tei:stage} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:teiHeader  
+%%  \xmlfunction{#1}{tei:teiHeader} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:TEI  
+   \xmlfunction{#1}{tei:TEI} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:text  
+   \xmlfunction{#1}{tei:text} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:titleStmt  
+   \xmlfunction{#1}{tei:titleStmt} 
+\stopxmlsetups
+
+\startxmlsetups xml:tei:title  
+   \xmlfunction{#1}{tei:title} 
+\stopxmlsetups
+
+
+%\xmlsetentity{anglebracketleft}{〈}
+%\xmlsetentity{anglebracketright}{〉}
+%\xmltexentity{nbsp}{~}
+%\xmltexentity{snellhyphenatednewline}{-\par\quad\quad}
+%\xmltexentity{snellnewline}{\par\quad\quad}

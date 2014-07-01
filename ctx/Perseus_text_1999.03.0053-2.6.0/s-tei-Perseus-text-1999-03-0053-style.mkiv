@@ -1,0 +1,74 @@
+%D \module
+%D   [    file=s-tei-Perseus-text-1999-03-0053-style,
+%D        version=2014.07.01,
+%D        title=Romeo and Juliet,
+%D        subtitle=,
+%D        author=Luigi Scarso,
+%D         date=\currentdate,
+%D      copyright={Luigi Scarso}]
+
+
+\registerctxluafile{s-tei-Perseus-text-1999-03-0053-basics}{1.001}
+\registerctxluafile{s-tei-Perseus-text-1999-03-0053-style}{1.001}
+\loadmarkfile{s-tei-Perseus-text-1999-03-0053-basics}
+
+
+
+\setuppapersize[A4,landscape][A4,landscape]
+
+\starttypescript[randj]
+    \definetypeface [randj] [rm] [serif] [schola] [default]
+    \definetypeface [randj] [ss] [sans]  [schola] [default]
+    \definetypeface [randj] [tt] [mono]  [schola] [default]
+    \definetypeface [randj] [mm] [math]  [modern] [default]
+\stoptypescript
+
+\setupbodyfont[randj,10pt]
+
+
+\setuplayout 
+  [width=middle,
+   height=middle,
+   backspace=3cm,
+   cutspace=1cm,
+   rightmargin=0cm,
+   leftmargin=2cm,
+   margindistance=0cm,
+   footer=1cm,
+   header=\zeropoint]
+
+\setuppagenumbering
+ [alternative=singlesided, location={footer,middle}]
+
+\setuphead[chapter]
+	  [style=\tfc,
+	   align=middle,
+           number=no,
+	   expansion=yes,
+	   before=,
+	   after=\blank,
+           page=yes]
+
+\setuphead[section]
+	  [style=normal,
+	   align=middle,
+           number=no,
+	   expansion=yes,
+	   before={\blank[2*line]},
+	   after={\blank[line]},
+           page=no]
+
+\setupinteraction[state=start,
+		  color=black,
+		  contrastcolor=black,
+		  style=normal,
+ 		  title={Romeo and Juliet},
+ 		  author={Luigi Scarso}]
+
+  
+\placebookmarks[chapter][all][force=yes]
+
+
+
+\mainlanguage[en]
+
