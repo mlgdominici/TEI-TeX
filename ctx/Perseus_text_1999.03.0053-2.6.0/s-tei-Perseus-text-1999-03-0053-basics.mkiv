@@ -10,15 +10,17 @@
 \registerctxluafile{s-tei-Perseus-text-1999-03-0053-basics.lua}{1.001}
 
 
-%% \begingroup
-%% \setbox\scratchbox=\vbox{\input tufte\relax}%
-%% \startdisplaymath% 
-%% \left.%
-%% \ruledvbox to \dimexpr\ht\scratchbox\relax{\copy\scratchbox}\right\] 
-%% \stopdisplaymath
-%% \vrule width1pt height\dimexpr\ht\scratchbox\relax depth\dimexpr\dp\scratchbox\relax 
-%% $\cases{\vrule width1pt height\dimexpr\ht\scratchbox\relax depth\dimexpr\dp\scratchbox\relax & \ccaron}$ $x=\hbox{\ccaron $x=\hbox{\ccaron}$}$
-%% \endgroup
+
+
+\nopdfcompression
+%\setupbackend[export=yes]
+\setupstructure[state=start,method=auto]
+\setuptagging[state=start]
+\def\SYMBOLFORNEWLINE{\ifvmode\ifdim\lastskip=\zeropoint\else\vskip-\lastskip\fi\else%
+\scale[width=0sp,height=0sp]{\cldcontext{utf.char(0x2424)}}\dontleavehmode\fi}
+\def\SYMBOLFORNEWLINE{\ifvmode\ifdim\lastskip=\zeropoint\else\vskip-\lastskip\fi\else%
+\hbox to 0sp{\hss\cldcontext{utf.char(0x2424)}\hss}\dontleavehmode\fi}
+
 
 
 \startxmlsetups xml:tei:Perseus:text:1999:03:0053-setups
