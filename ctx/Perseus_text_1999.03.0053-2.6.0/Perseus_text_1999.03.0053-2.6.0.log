@@ -1,0 +1,271 @@
+open source     > 1 > 1 > /opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/base/cont-yes.mkiv
+
+ConTeXt  ver: 2014.10.09 15:22 MKIV beta  fmt: 2014.10.16  int: english/english
+
+system          > 'cont-new.mkiv' loaded
+open source     > 2 > 2 > /opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/base/cont-new.mkiv
+close source    > 2 > 2 > /opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/base/cont-new.mkiv
+system          > files > jobname 'Perseus_text_1999.03.0053-2.6.0', input './Perseus_text_1999.03.0053-2.6.0', result 'Perseus_text_1999.03.0053-2.6'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > 2 > 3 > /opt/luatex/standalone-mkiv-new/tex/texmf-project/tei-tex/Perseus_text_1999.03.0053-2.6.0.tex
+open source     > 3 > 4 > s-tei-Perseus-text-1999-03-0053-style.mkiv
+resolvers       > lua > loading file 's-tei-Perseus-text-1999-03-0053-basics.lua' succeeded
+resolvers       > lua > unknown file 's-tei-Perseus-text-1999-03-0053-style.lua'
+open source     > 4 > 5 > s-tei-Perseus-text-1999-03-0053-basics.mkiv
+close source    > 4 > 5 > s-tei-Perseus-text-1999-03-0053-basics.mkiv
+open source     > 4 > 6 > /opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/base/type-imp-texgyre.mkiv
+close source    > 4 > 6 > /opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/base/type-imp-texgyre.mkiv
+close source    > 3 > 6 > s-tei-Perseus-text-1999-03-0053-style.mkiv
+backend         > xmp > using file '/opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/base/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1
+pages           > flushing realpage 2, userpage 2
+structure       > sectioning > chapter @ level 2 : 0.1 -> DRAMATIS PERSONÆ
+pages           > flushing realpage 3, userpage 3
+pages           > flushing realpage 4, userpage 4
+structure       > sectioning > chapter @ level 2 : 0.2 -> PROLOGUE
+pages           > flushing realpage 5, userpage 5
+structure       > sectioning > chapter @ level 2 : 0.3 -> ACT I
+structure       > sectioning > section @ level 3 : 0.3.1 -> SCENE I
+pages           > flushing realpage 6, userpage 6
+pages           > flushing realpage 7, userpage 7
+pages           > flushing realpage 8, userpage 8
+pages           > flushing realpage 9, userpage 9
+pages           > flushing realpage 10, userpage 10
+pages           > flushing realpage 11, userpage 11
+pages           > flushing realpage 12, userpage 12
+pages           > flushing realpage 13, userpage 13
+pages           > flushing realpage 14, userpage 14
+pages           > flushing realpage 15, userpage 15
+structure       > sectioning > section @ level 3 : 0.3.2 -> SCENE II
+pages           > flushing realpage 16, userpage 16
+pages           > flushing realpage 17, userpage 17
+pages           > flushing realpage 18, userpage 18
+pages           > flushing realpage 19, userpage 19
+structure       > sectioning > section @ level 3 : 0.3.3 -> SCENE III
+pages           > flushing realpage 20, userpage 20
+pages           > flushing realpage 21, userpage 21
+pages           > flushing realpage 22, userpage 22
+pages           > flushing realpage 23, userpage 23
+pages           > flushing realpage 24, userpage 24
+pages           > flushing realpage 25, userpage 25
+structure       > sectioning > section @ level 3 : 0.3.4 -> SCENE IV
+pages           > flushing realpage 26, userpage 26
+pages           > flushing realpage 27, userpage 27
+pages           > flushing realpage 28, userpage 28
+pages           > flushing realpage 29, userpage 29
+pages           > flushing realpage 30, userpage 30
+structure       > sectioning > section @ level 3 : 0.3.5 -> SCENE V
+pages           > flushing realpage 31, userpage 31
+pages           > flushing realpage 32, userpage 32
+pages           > flushing realpage 33, userpage 33
+pages           > flushing realpage 34, userpage 34
+pages           > flushing realpage 35, userpage 35
+pages           > flushing realpage 36, userpage 36
+pages           > flushing realpage 37, userpage 37
+structure       > sectioning > chapter @ level 2 : 0.4 -> ACT II
+structure       > sectioning > section @ level 3 : 0.4.1 -> PROLOGUE
+structure       > sectioning > section @ level 3 : 0.4.2 -> SCENE I
+pages           > flushing realpage 38, userpage 38
+pages           > flushing realpage 39, userpage 39
+structure       > sectioning > section @ level 3 : 0.4.3 -> SCENE II
+pages           > flushing realpage 40, userpage 40
+pages           > flushing realpage 41, userpage 41
+pages           > flushing realpage 42, userpage 42
+pages           > flushing realpage 43, userpage 43
+pages           > flushing realpage 44, userpage 44
+pages           > flushing realpage 45, userpage 45
+pages           > flushing realpage 46, userpage 46
+pages           > flushing realpage 47, userpage 47
+structure       > sectioning > section @ level 3 : 0.4.4 -> SCENE III
+pages           > flushing realpage 48, userpage 48
+pages           > flushing realpage 49, userpage 49
+pages           > flushing realpage 50, userpage 50
+structure       > sectioning > section @ level 3 : 0.4.5 -> SCENE IV
+pages           > flushing realpage 51, userpage 51
+pages           > flushing realpage 52, userpage 52
+pages           > flushing realpage 53, userpage 53
+pages           > flushing realpage 54, userpage 54
+pages           > flushing realpage 55, userpage 55
+pages           > flushing realpage 56, userpage 56
+pages           > flushing realpage 57, userpage 57
+pages           > flushing realpage 58, userpage 58
+pages           > flushing realpage 59, userpage 59
+pages           > flushing realpage 60, userpage 60
+pages           > flushing realpage 61, userpage 61
+pages           > flushing realpage 62, userpage 62
+structure       > sectioning > section @ level 3 : 0.4.6 -> SCENE V
+pages           > flushing realpage 63, userpage 63
+pages           > flushing realpage 64, userpage 64
+pages           > flushing realpage 65, userpage 65
+structure       > sectioning > section @ level 3 : 0.4.7 -> SCENE VI
+pages           > flushing realpage 66, userpage 66
+pages           > flushing realpage 67, userpage 67
+pages           > flushing realpage 68, userpage 68
+structure       > sectioning > chapter @ level 2 : 0.5 -> ACT III
+structure       > sectioning > section @ level 3 : 0.5.1 -> SCENE I
+pages           > flushing realpage 69, userpage 69
+pages           > flushing realpage 70, userpage 70
+pages           > flushing realpage 71, userpage 71
+pages           > flushing realpage 72, userpage 72
+pages           > flushing realpage 73, userpage 73
+pages           > flushing realpage 74, userpage 74
+pages           > flushing realpage 75, userpage 75
+pages           > flushing realpage 76, userpage 76
+pages           > flushing realpage 77, userpage 77
+structure       > sectioning > section @ level 3 : 0.5.2 -> SCENE II
+pages           > flushing realpage 78, userpage 78
+pages           > flushing realpage 79, userpage 79
+pages           > flushing realpage 80, userpage 80
+pages           > flushing realpage 81, userpage 81
+pages           > flushing realpage 82, userpage 82
+structure       > sectioning > section @ level 3 : 0.5.3 -> SCENE III
+pages           > flushing realpage 83, userpage 83
+pages           > flushing realpage 84, userpage 84
+pages           > flushing realpage 85, userpage 85
+pages           > flushing realpage 86, userpage 86
+pages           > flushing realpage 87, userpage 87
+pages           > flushing realpage 88, userpage 88
+pages           > flushing realpage 89, userpage 89
+structure       > sectioning > section @ level 3 : 0.5.4 -> SCENE IV
+pages           > flushing realpage 90, userpage 90
+structure       > sectioning > section @ level 3 : 0.5.5 -> SCENE V
+pages           > flushing realpage 91, userpage 91
+pages           > flushing realpage 92, userpage 92
+pages           > flushing realpage 93, userpage 93
+pages           > flushing realpage 94, userpage 94
+pages           > flushing realpage 95, userpage 95
+pages           > flushing realpage 96, userpage 96
+pages           > flushing realpage 97, userpage 97
+pages           > flushing realpage 98, userpage 98
+pages           > flushing realpage 99, userpage 99
+pages           > flushing realpage 100, userpage 100
+pages           > flushing realpage 101, userpage 101
+structure       > sectioning > chapter @ level 2 : 0.6 -> ACT IV
+structure       > sectioning > section @ level 3 : 0.6.1 -> SCENE I
+pages           > flushing realpage 102, userpage 102
+pages           > flushing realpage 103, userpage 103
+pages           > flushing realpage 104, userpage 104
+pages           > flushing realpage 105, userpage 105
+structure       > sectioning > section @ level 3 : 0.6.2 -> SCENE II
+pages           > flushing realpage 106, userpage 106
+pages           > flushing realpage 107, userpage 107
+structure       > sectioning > section @ level 3 : 0.6.3 -> SCENE III
+pages           > flushing realpage 108, userpage 108
+pages           > flushing realpage 109, userpage 109
+pages           > flushing realpage 110, userpage 110
+structure       > sectioning > section @ level 3 : 0.6.4 -> SCENE IV
+pages           > flushing realpage 111, userpage 111
+structure       > sectioning > section @ level 3 : 0.6.5 -> SCENE V
+pages           > flushing realpage 112, userpage 112
+pages           > flushing realpage 113, userpage 113
+pages           > flushing realpage 114, userpage 114
+pages           > flushing realpage 115, userpage 115
+pages           > flushing realpage 116, userpage 116
+pages           > flushing realpage 117, userpage 117
+pages           > flushing realpage 118, userpage 118
+pages           > flushing realpage 119, userpage 119
+structure       > sectioning > chapter @ level 2 : 0.7 -> ACT V
+structure       > sectioning > section @ level 3 : 0.7.1 -> SCENE I
+pages           > flushing realpage 120, userpage 120
+pages           > flushing realpage 121, userpage 121
+pages           > flushing realpage 122, userpage 122
+structure       > sectioning > section @ level 3 : 0.7.2 -> SCENE II
+pages           > flushing realpage 123, userpage 123
+structure       > sectioning > section @ level 3 : 0.7.3 -> SCENE III
+pages           > flushing realpage 124, userpage 124
+pages           > flushing realpage 125, userpage 125
+pages           > flushing realpage 126, userpage 126
+pages           > flushing realpage 127, userpage 127
+pages           > flushing realpage 128, userpage 128
+pages           > flushing realpage 129, userpage 129
+pages           > flushing realpage 130, userpage 130
+pages           > flushing realpage 131, userpage 131
+pages           > flushing realpage 132, userpage 132
+pages           > flushing realpage 133, userpage 133
+pages           > flushing realpage 134, userpage 134
+pages           > flushing realpage 135, userpage 135
+pages           > flushing realpage 136, userpage 136
+pages           > flushing realpage 137, userpage 137
+structure       > tags > ignoring end tag, previous chain: none
+structure       > tags > ignoring end tag, previous chain: none
+structure       > tags > ignoring end tag, previous chain: none
+close source    > 2 > 6 > /opt/luatex/standalone-mkiv-new/tex/texmf-project/tei-tex/Perseus_text_1999.03.0053-2.6.0.tex
+close source    > 1 > 6 > /opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/base/cont-yes.mkiv
+
+system          > structure > start used structure
+
+used structure  > text: Perseus_text_1999.03.0053-2.6.0
+
+system          > structure > stop used structure
+
+
+system          > files > start used files
+
+used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=/opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/base/cont-yes.mkiv usedmethod=database
+used file       >    2: filename=cont-new.mkiv filetype=tex foundname=/opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/base/cont-new.mkiv usedmethod=database
+used file       >    3: filename=lang-us.lua filetype=scripts foundname=/opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/patterns/lang-us.lua usedmethod=database
+used file       >    4: filename=/opt/luatex/standalone-mkiv-new/tex/texmf-project/tei-tex/Perseus_text_1999.03.0053-2.6.0.tex foundname=/opt/luatex/standalone-mkiv-new/tex/texmf-project/tei-tex/Perseus_text_1999.03.0053-2.6.0.tex usedmethod=direct
+used file       >    5: filename=s-tei-Perseus-text-1999-03-0053-style.mkiv foundname=s-tei-Perseus-text-1999-03-0053-style.mkiv usedmethod=direct
+used file       >    6: filename=s-tei-Perseus-text-1999-03-0053-basics.lua format=tex foundname=s-tei-Perseus-text-1999-03-0053-basics.lua usedmethod=direct
+used file       >    7: filename=s-tei-Perseus-text-1999-03-0053-basics.mkiv foundname=s-tei-Perseus-text-1999-03-0053-basics.mkiv usedmethod=direct
+used file       >    8: filename=type-imp-texgyre.mkiv filetype=tex foundname=/opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/base/type-imp-texgyre.mkiv usedmethod=database
+used file       >    9: filename=lm.lfg filetype=tex foundname=/opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/fonts/lm.lfg usedmethod=database
+used file       >   10: filename=texgyreschola-regular filetype=otf format=otf foundname=/opt/luatex/standalone-mkiv-new/tex/texmf/fonts/opentype/public/tex-gyre/texgyreschola-regular.otf usedmethod=database
+used file       >   11: filename=latinmodern-math.otf filetype=opentypefonts foundname=/opt/luatex/standalone-mkiv-new/tex/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+used file       >   12: filename=Perseus_text_1999.03.0053-2.6.0.xml foundname=Perseus_text_1999.03.0053-2.6.0.xml usedmethod=direct
+used file       >   13: filename=lpdf-pdx.xml filetype=tex foundname=/opt/luatex/standalone-mkiv-new/tex/texmf-context/tex/context/base/lpdf-pdx.xml usedmethod=database
+used file       >   14: filename=texgyreschola-bold filetype=otf format=otf foundname=/opt/luatex/standalone-mkiv-new/tex/texmf/fonts/opentype/public/tex-gyre/texgyreschola-bold.otf usedmethod=database
+used file       >   15: filename=texgyreschola-italic filetype=otf format=otf foundname=/opt/luatex/standalone-mkiv-new/tex/texmf/fonts/opentype/public/tex-gyre/texgyreschola-italic.otf usedmethod=database
+
+system          > files > stop used files
+
+
+system          > options > start commandline options
+
+used option     > currentrun="3"
+used option     > fulljobname="./Perseus_text_1999.03.0053-2.6.0.tex"
+used option     > input="./Perseus_text_1999.03.0053-2.6.0.tex"
+used option     > kindofrun="2"
+used option     > maxnofruns="8"
+used option     > no-parse-first-line="true"
+
+system          > options > stop commandline options
+
+system          > options > start commandline files
+
+used file       >    1: ./Perseus_text_1999.03.0053-2.6.0.tex
+
+system          > options > stop commandline files
+
+
+mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: /opt/luatex/standalone-mkiv-new/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
+mkiv lua stats  > resource resolver: loadtime 0.016 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 355 modules (0.227 sec), 69 tables (0.003 sec), 424 chunks (0.230 sec)
+mkiv lua stats  > running in nuts mode: yes
+mkiv lua stats  > cleaned up reserved nodes: 44 nodes, 442 lists of 441
+mkiv lua stats  > node memory usage: 2 glue, 2 penalty, 14 attribute, 4870 glue_spec, 3 attribute_list, 2 temp
+mkiv lua stats  > node list callback tasks: 6 unique task lists, 6 instances (re)created, 25710 calls
+mkiv lua stats  > h-node processing time: 1.355 seconds including kernel
+mkiv lua stats  > inserted spaces in output: 21369
+mkiv lua stats  > attribute processing time: 0.370 seconds front- and backend
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > v-node processing time: 0.199 seconds 
+mkiv lua stats  > loaded patterns: en::2, load time: 0.000
+mkiv lua stats  > jobdata time: 0.015 seconds saving, 0.003 seconds loading
+mkiv lua stats  > callbacks: 40881 direct, 1010 indirect, 41891 total
+mkiv lua stats  > randomizer: resumed with value 0.77184919350401
+mkiv lua stats  > xml load time: 0.076 seconds, 1 files, 1 converted
+mkiv lua stats  > lxml preparation time: 0.063 seconds, 11346 nodes, 969 lpath calls, 946 cached calls
+mkiv lua stats  > structure elements: 11361 element chains identified
+mkiv lua stats  > interactive elements: 0 references, 32 destinations
+mkiv lua stats  > result saved in file: Perseus_text_1999.03.0053-2.6.pdf, compresslevel 0, objectcompresslevel 0
+mkiv lua stats  > loaded fonts: 4 files: latinmodern-math.otf, texgyreschola-bold.otf, texgyreschola-italic.otf, texgyreschola-regular.otf
+mkiv lua stats  > fonts load time: 0.312 seconds for 9 fonts, 3 shared in backend, 2 common vectors, 1 common hashes
+mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: texmf-linux-64
+mkiv lua stats  > luatex banner: this is luatex, version beta-0.79.1 (tex live 2015/dev)
+mkiv lua stats  > control sequences: 39293 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 91 MB (ctx: 82 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 7.912 seconds, 137 processed pages, 137 shipped pages, 17.315 pages/second
+

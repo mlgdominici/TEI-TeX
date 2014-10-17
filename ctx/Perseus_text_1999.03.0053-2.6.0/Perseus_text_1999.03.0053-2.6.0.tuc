@@ -1,0 +1,1882 @@
+local utilitydata = { }
+
+utilitydata.comment={
+ ["escape"]="[===[ ... ]===]",
+ ["file"]="Perseus_text_1999.03.0053-2.6.0",
+ ["format"]="cont-en",
+ ["stamp"]="2014.10.09 15:22",
+ ["version"]=1.25,
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.checksums={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.collected={
+ ["randomseed"]=0.77184919350401,
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.passes then utilitydata.job.passes = { } end
+
+utilitydata.job.passes.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.datasets then utilitydata.job.datasets = { } end
+
+utilitydata.job.datasets.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
+
+utilitydata.job.pagestates.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.structure then utilitydata.job.structure = { } end
+
+utilitydata.job.structure.collected={
+ ["branches"]={},
+ ["name"]="Perseus_text_1999.03.0053-2.6.0",
+ ["type"]="text",
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.positions then utilitydata.job.positions = { } end
+
+utilitydata.job.positions.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.specials then utilitydata.structures.specials = { } end
+
+utilitydata.structures.specials.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.counters then utilitydata.structures.counters = { } end
+
+utilitydata.structures.counters.collected={
+ ["chemical"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["combination"]={
+  { 0 },
+ },
+ ["endnote"]={
+  { 0 },
+ },
+ ["figure"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["footnote"]={
+  { 0 },
+ },
+ ["formula"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["graphic"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["intermezzo"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["itemgroup:itemize"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["linenote"]={
+  { 0 },
+ },
+ ["paragraph"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["realpage"]={
+  { 137 },
+ },
+ ["subpage"]={
+  { 0 },
+ },
+ ["table"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["userpage"]={
+  { 137 },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.lists then utilitydata.structures.lists = { } end
+
+utilitydata.structures.lists.collected={
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=1,
+   ["realpage"]=3,
+   ["section"]=1,
+   ["tag"]=1,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="DRAMATIS PERSONÆ",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=5,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=2,
+   ["realpage"]=5,
+   ["section"]=2,
+   ["tag"]=2,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="PROLOGUE",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=7,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=3,
+   ["realpage"]=6,
+   ["section"]=3,
+   ["tag"]=3,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="ACT I",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=10,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=4,
+   ["realpage"]=6,
+   ["section"]=4,
+   ["tag"]=1,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE I",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=12,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=5,
+   ["realpage"]=16,
+   ["section"]=5,
+   ["tag"]=2,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE II",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=14,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=6,
+   ["realpage"]=21,
+   ["section"]=6,
+   ["tag"]=3,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE III",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=16,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=7,
+   ["realpage"]=26,
+   ["section"]=7,
+   ["tag"]=4,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE IV",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=18,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=8,
+   ["realpage"]=31,
+   ["section"]=8,
+   ["tag"]=5,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE V",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=20,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=9,
+   ["realpage"]=38,
+   ["section"]=9,
+   ["tag"]=4,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="ACT II",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=10,
+   ["realpage"]=38,
+   ["section"]=10,
+   ["tag"]=7,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="PROLOGUE",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=24,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=11,
+   ["realpage"]=38,
+   ["section"]=11,
+   ["tag"]=7,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE I",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=26,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=12,
+   ["realpage"]=40,
+   ["section"]=12,
+   ["tag"]=8,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE II",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=28,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=13,
+   ["realpage"]=48,
+   ["section"]=13,
+   ["tag"]=9,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE III",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=30,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=14,
+   ["realpage"]=51,
+   ["section"]=14,
+   ["tag"]=10,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE IV",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=32,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=15,
+   ["realpage"]=63,
+   ["section"]=15,
+   ["tag"]=11,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE V",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=34,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=16,
+   ["realpage"]=66,
+   ["section"]=16,
+   ["tag"]=12,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE VI",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=36,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=17,
+   ["realpage"]=69,
+   ["section"]=17,
+   ["tag"]=5,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="ACT III",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=38,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=18,
+   ["realpage"]=69,
+   ["section"]=18,
+   ["tag"]=13,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE I",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=40,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=19,
+   ["realpage"]=78,
+   ["section"]=19,
+   ["tag"]=14,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE II",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=42,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=20,
+   ["realpage"]=83,
+   ["section"]=20,
+   ["tag"]=15,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE III",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=44,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=21,
+   ["realpage"]=90,
+   ["section"]=21,
+   ["tag"]=16,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE IV",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=46,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=22,
+   ["realpage"]=91,
+   ["section"]=22,
+   ["tag"]=17,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE V",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=48,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=23,
+   ["realpage"]=102,
+   ["section"]=23,
+   ["tag"]=6,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="ACT IV",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=50,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=24,
+   ["realpage"]=102,
+   ["section"]=24,
+   ["tag"]=18,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE I",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=52,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=25,
+   ["realpage"]=106,
+   ["section"]=25,
+   ["tag"]=19,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE II",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=54,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=26,
+   ["realpage"]=109,
+   ["section"]=26,
+   ["tag"]=20,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE III",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=56,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=27,
+   ["realpage"]=111,
+   ["section"]=27,
+   ["tag"]=21,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE IV",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=58,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=28,
+   ["realpage"]=113,
+   ["section"]=28,
+   ["tag"]=22,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE V",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=60,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=29,
+   ["realpage"]=120,
+   ["section"]=29,
+   ["tag"]=7,
+   ["used"]="fit",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="ACT V",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=62,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=30,
+   ["realpage"]=120,
+   ["section"]=30,
+   ["tag"]=23,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE I",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=64,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=31,
+   ["realpage"]=123,
+   ["section"]=31,
+   ["tag"]=24,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE II",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=66,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=32,
+   ["realpage"]=124,
+   ["section"]=32,
+   ["tag"]=25,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="SCENE III",
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.pages then utilitydata.structures.pages = { } end
+
+utilitydata.structures.pages.collected={
+ {
+  ["block"]="bodypart",
+  ["number"]=1,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=2,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=3,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=4,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=5,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=6,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=7,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=8,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=9,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=10,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=11,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=12,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=13,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=14,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=15,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=16,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=17,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=18,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=19,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=20,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=21,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=22,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=23,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=24,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=25,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=26,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=27,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=28,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=29,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=30,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=31,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=32,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=33,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=34,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=35,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=36,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=37,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=38,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=39,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=40,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=41,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=42,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=43,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=44,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=45,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=46,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=47,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=48,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=49,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=50,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=51,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=52,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=53,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=54,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=55,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=56,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=57,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=58,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=59,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=60,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=61,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=62,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=63,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=64,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=65,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=66,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=67,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=68,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=69,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=70,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=71,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=72,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=73,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=74,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=75,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=76,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=77,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=78,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=79,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=80,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=81,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=82,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=83,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=84,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=85,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=86,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=87,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=88,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=89,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=90,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=91,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=92,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=93,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=94,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=95,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=96,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=97,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=98,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=99,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=100,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=101,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=102,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=103,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=104,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=105,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=106,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=107,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=108,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=109,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=110,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=111,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=112,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=113,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=114,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=115,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=116,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=117,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=118,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=119,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=120,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=121,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=122,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=123,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=124,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=125,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=126,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=127,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=128,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=129,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=130,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=131,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=132,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=133,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=134,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=135,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=136,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=137,
+  ["numberdata"]=67,
+  ["prefixdata"]=68,
+  ["state"]="start",
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.referred={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.objects then utilitydata.job.objects = { } end
+
+utilitydata.job.objects.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.synonyms then utilitydata.structures.synonyms = { } end
+
+utilitydata.structures.synonyms.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.registers then utilitydata.structures.registers = { } end
+
+utilitydata.structures.registers.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.blocks then utilitydata.structures.blocks = { } end
+
+utilitydata.structures.blocks.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.files then utilitydata.job.files = { } end
+
+utilitydata.job.files.collected={
+}
+
+if not utilitydata.publications then utilitydata.publications = { } end
+
+utilitydata.publications.collected={
+}
+
+utilitydata.job.packed={
+ ["index"]={
+  {
+   ["catcodes"]=5,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["name"]="chapter",
+  },
+  { 0, 1 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=2,
+   ["set"]="all",
+  },
+  { 0, 2 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=4,
+   ["set"]="all",
+  },
+  { 0, 3 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=6,
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=5,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["name"]="section",
+  },
+  { 0, 3, 1 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=9,
+   ["set"]="all",
+  },
+  { 0, 3, 2 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=11,
+   ["set"]="all",
+  },
+  { 0, 3, 3 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=13,
+   ["set"]="all",
+  },
+  { 0, 3, 4 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=15,
+   ["set"]="all",
+  },
+  { 0, 3, 5 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=17,
+   ["set"]="all",
+  },
+  { 0, 4 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=19,
+   ["set"]="all",
+  },
+  { 0, 4, 1 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=21,
+   ["set"]="all",
+  },
+  { 0, 4, 2 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=23,
+   ["set"]="all",
+  },
+  { 0, 4, 3 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=25,
+   ["set"]="all",
+  },
+  { 0, 4, 4 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=27,
+   ["set"]="all",
+  },
+  { 0, 4, 5 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=29,
+   ["set"]="all",
+  },
+  { 0, 4, 6 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=31,
+   ["set"]="all",
+  },
+  { 0, 4, 7 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=33,
+   ["set"]="all",
+  },
+  { 0, 5 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=35,
+   ["set"]="all",
+  },
+  { 0, 5, 1 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=37,
+   ["set"]="all",
+  },
+  { 0, 5, 2 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=39,
+   ["set"]="all",
+  },
+  { 0, 5, 3 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=41,
+   ["set"]="all",
+  },
+  { 0, 5, 4 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=43,
+   ["set"]="all",
+  },
+  { 0, 5, 5 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=45,
+   ["set"]="all",
+  },
+  { 0, 6 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=47,
+   ["set"]="all",
+  },
+  { 0, 6, 1 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=49,
+   ["set"]="all",
+  },
+  { 0, 6, 2 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=51,
+   ["set"]="all",
+  },
+  { 0, 6, 3 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=53,
+   ["set"]="all",
+  },
+  { 0, 6, 4 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=55,
+   ["set"]="all",
+  },
+  { 0, 6, 5 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=57,
+   ["set"]="all",
+  },
+  { 0, 7 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=59,
+   ["set"]="all",
+  },
+  { 0, 7, 1 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=61,
+   ["set"]="all",
+  },
+  { 0, 7, 2 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=63,
+   ["set"]="all",
+  },
+  { 0, 7, 3 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=65,
+   ["set"]="all",
+  },
+  {
+   ["conversionset"]="pagenumber",
+  },
+  {
+   ["connector"]="–",
+   ["prefix"]="no",
+   ["set"]="part",
+  },
+ },
+ ["keys"]={
+  ["directives"]=true,
+  ["metadata"]=true,
+  ["numberdata"]=true,
+  ["numbers"]=true,
+  ["pagedata"]=true,
+  ["prefixdata"]=true,
+  ["processors"]=true,
+  ["sectiondata"]=true,
+  ["specification"]=true,
+ },
+ ["version"]=1.02,
+}
+
+return utilitydata

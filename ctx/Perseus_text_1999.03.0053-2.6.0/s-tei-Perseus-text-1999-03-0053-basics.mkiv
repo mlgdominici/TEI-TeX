@@ -10,14 +10,15 @@
 \registerctxluafile{s-tei-Perseus-text-1999-03-0053-basics.lua}{1.001}
 
 
-
-
 \nopdfcompression
 %\setupbackend[export=yes]
 \setupstructure[state=start,method=auto]
 \setuptagging[state=start]
-\def\SYMBOLFORNEWLINE{\ifvmode\ifdim\lastskip=\zeropoint\else\vskip-\lastskip\fi\else%
-\scale[width=0sp,height=0sp]{\cldcontext{utf.char(0x2424)}}\dontleavehmode\fi}
+
+\setelementnature[private][mixed]
+\setelementbackendtag[private][Span]
+
+
 \def\SYMBOLFORNEWLINE{\ifvmode\ifdim\lastskip=\zeropoint\else\vskip-\lastskip\fi\else%
 \hbox to 0sp{\hss\cldcontext{utf.char(0x2424)}\hss}\dontleavehmode\fi}
 
@@ -39,6 +40,161 @@
 %%   |stage|TEI|teiHeader|text|title|titleStmt
 
 \xmlregistersetup{xml:tei:Perseus:text:1999:03:0053-setups}
+
+% TEI Header
+\startxmlsetups xml:tei:teiHeader  
+   \xmlfunction{#1}{tei:teiHeader}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:fileDesc
+   \xmlfunction{#1}{tei:fileDesc}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:titleStmt
+  \xmlfunction{#1}{tei:titleStmt}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:title
+  \xmlfunction{#1}{tei:title}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:author
+  \xmlfunction{#1}{tei:author}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:editor
+  \xmlfunction{#1}{tei:editor}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:sponsor
+  \xmlfunction{#1}{tei:sponsor}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:principal        
+  \xmlfunction{#1}{tei:principal}
+\stopxmlsetups
+
+\startxmlsetups xml:tei:respStmt         
+  \xmlfunction{#1}{tei:respStmt}       
+\stopxmlsetups
+
+\startxmlsetups xml:tei:resp             
+  \xmlfunction{#1}{tei:resp}        
+\stopxmlsetups
+
+\startxmlsetups xml:tei:name             
+  \xmlfunction{#1}{tei:name}            
+\stopxmlsetups
+
+\startxmlsetups xml:tei:funder           
+  \xmlfunction{#1}{tei:funder}           
+\stopxmlsetups
+
+
+\startxmlsetups xml:tei:publicationStmt           
+  \xmlfunction{#1}{tei:publicationStmt}           
+\stopxmlsetups
+
+
+\startxmlsetups xml:tei:publisher           
+  \xmlfunction{#1}{tei:publisher}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:pubPlace           
+  \xmlfunction{#1}{tei:pubPlace}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:authority           
+  \xmlfunction{#1}{tei:authority}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:availability            
+  \xmlfunction{#1}{tei:availability}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:ab           
+  \xmlfunction{#1}{tei:ab}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:quote           
+  \xmlfunction{#1}{tei:quote}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:sourceDesc            
+  \xmlfunction{#1}{tei:sourceDesc}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:biblStruct           
+  \xmlfunction{#1}{tei:biblStruct}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:monogr           
+  \xmlfunction{#1}{tei:monogr}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:author           
+  \xmlfunction{#1}{tei:author}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:title           
+  \xmlfunction{#1}{tei:title}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:imprint           
+  \xmlfunction{#1}{tei:imprint}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:pubPlace           
+  \xmlfunction{#1}{tei:pubPlace}           
+\stopxmlsetups
+
+
+\startxmlsetups xml:tei:encodingDesc           
+  \xmlfunction{#1}{tei:encodingDesc}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:refsDecl           
+  \xmlfunction{#1}{tei:refsDecl}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:refState           
+  \xmlfunction{#1}{tei:refState}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:profileDesc           
+  \xmlfunction{#1}{tei:profileDesc}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:langUsage           
+  \xmlfunction{#1}{tei:langUsage}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:language            
+  \xmlfunction{#1}{tei:language}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:revisionDesc           
+  \xmlfunction{#1}{tei:revisionDesc}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:change            
+  \xmlfunction{#1}{tei:change }           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:date           
+  \xmlfunction{#1}{tei:date}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:list           
+  \xmlfunction{#1}{tei:list}           
+\stopxmlsetups
+
+\startxmlsetups xml:tei:item           
+  \xmlfunction{#1}{tei:item}           
+\stopxmlsetups
+
+
+
 
 % Elements of the text 
 
@@ -158,9 +314,6 @@
    \xmlfunction{#1}{tei:profileDesc} 
 \stopxmlsetups
 
-\startxmlsetups xml:tei:publicationStmt  
-   \xmlfunction{#1}{tei:publicationStmt} 
-\stopxmlsetups
 
 \startxmlsetups xml:tei:publisher  
    \xmlfunction{#1}{tei:publisher} 
@@ -226,9 +379,9 @@
    \xmlfunction{#1}{tei:stage} 
 \stopxmlsetups
 
-\startxmlsetups xml:tei:teiHeader  
+%%\startxmlsetups xml:tei:teiHeader  
 %%  \xmlfunction{#1}{tei:teiHeader} 
-\stopxmlsetups
+%%\stopxmlsetups
 
 \startxmlsetups xml:tei:TEI  
    \xmlfunction{#1}{tei:TEI} 
@@ -238,9 +391,9 @@
    \xmlfunction{#1}{tei:text} 
 \stopxmlsetups
 
-\startxmlsetups xml:tei:titleStmt  
-   \xmlfunction{#1}{tei:titleStmt} 
-\stopxmlsetups
+%% \startxmlsetups xml:tei:titleStmt  
+%%    \xmlfunction{#1}{tei:titleStmt} 
+%% \stopxmlsetups
 
 \startxmlsetups xml:tei:title  
    \xmlfunction{#1}{tei:title} 
