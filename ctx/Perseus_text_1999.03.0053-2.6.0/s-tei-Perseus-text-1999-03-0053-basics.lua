@@ -204,7 +204,7 @@ local function lb(t)
    end
    context.startelement({"div"},att)
    context.setupelementuserproperties({'div'}, att )
-   context([[\char"241D]])
+   context([[\char"241D\endgraf]]) 
    context.stopelement()
    context.startelement({"ignore"},att)
    context.setupelementuserproperties({'ignore'}, att )
